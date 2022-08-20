@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css">
+    <link href="./lightbox2-2.11.3/dist/css/lightbox.min.css" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="./css/main.css">
+
+    <title>About</title>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header id="header__inner">
+        <div class="container">
+            <nav class="main-nav">
+                <img src="img/logo.png" alt="logo" class="main-nav__logo">
+                <ul class="main-nav__items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+   <section id="contact-a" class="text-center py-3">
+        <div class="container">
+            <h2 class="section-title">CONTACT ME</h2>
+            <div class="border-bottom"></div>
+            <p class="lead">Lorem ipsum dolor sit amet.</p>
+
+            <!-- action="https://formspree.io/f/mnqrqron"   -->
+
+            <form 
+            
+            name="contact" 
+            method="POST"
+            data-netlify-recaptcha="true"
+            data-netlify="true" 
+            netlify>
+
+                <div class="form-fields">
+                    <input type="text" name="fullname" id="fullname" class="name input" placeholder="Name">
+                    <input type="text" name="subject" id="subject" placeholder="Subject" class="subject input">
+                    <input type="email" name="email" id="email" placeholder="Email" class="email input" minlength="6">
+                    <input type="tel" name="phone" id="phone" placeholder="Phone" class="phone input">
+                    <textarea name="message" id="message" placeholder="Enter Message" class="message input"></textarea>
+                    <div data-netlify-recaptcha="true"></div>
+                    <button name="button" type="submit" class="btn-dark">Submit</button>
+                </div>
+            </form>
+        </div>
+
+   </section>
+
+   <section id="contact-b" class="bg-primary py-4">
+        <div class="container">
+            <div class="contact-info">
+                <div>
+                    <a href="mailto:oezguer@mein.gmx">
+                    <i class="fas fa-envelope fa-2x"></i>
+                    <h3>Email</h3>
+                    <p>oezguer@mein.gmx</p></a>
+                </div>
+
+                <div>
+                    <a href="tel:+15254364406">
+                    <i class="fas fa-phone fa-2x"></i>
+                    <h3>Phone</h3>
+                    <p> 01525 436 4406</p></a>
+                </div>
+
+                <div>
+                    <a href="https://goo.gl/maps/98hmxuNVNGTUKh7u7" target="_blank">
+                    <i class="fas fa-address-card fa-2x"></i>
+                    <h3>Adress</h3>
+                    <p> Neumünster/Deutschland</p></a>
+                </div>
+            </div>
+        </div>
+   </section>
+
+
+    <!-- footer  -->
+    <footer id="main-footer">
+
+        <div class="footer-content container">
+            <p>Copyright &copy; 2025. All Rights Reserved </p>
+            <div class="social">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
