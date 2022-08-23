@@ -320,6 +320,7 @@ img {
 }
 #main-footer .footer-content .social .fab:hover {
   background: #ef6d6d;
+  cursor: pointer;
 }
 
 .items {

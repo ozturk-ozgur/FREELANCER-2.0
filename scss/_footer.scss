@@ -19,7 +19,10 @@
 
             &:hover {
                 background:$primary-color ;
+                cursor: pointer;
             }
+
+           
         }
     }
 }
